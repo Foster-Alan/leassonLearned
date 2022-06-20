@@ -1,7 +1,27 @@
 body {
     background-color: rgb(253, 251, 251);
 }
-.cabecalho {
-    position: fixed; 
-    top: 0;    
+#cabecalho {
+    background-color: green;
+    position: fixed 
+    top 0;    
+}
+#licoes_aprendidas {
+    display: inline-block;
+}
+#licoes_a_aprender {
+    display: inline-block;
+}
+.lado-esquerdo {
+    display: inline-block;
+    border: 2px solid black;
+    width: 35%;
+    padding: 15px;
+
+}
+.lado-direito {
+    display: inline-block;
+    border: 2px solid black;
+    width: 35%;
+    padding: 15px;
 }
